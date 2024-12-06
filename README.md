@@ -4,7 +4,7 @@ Data Preprocessing Function
 ```
 from math import radians, sin, cos, sqrt, atan2
 def haversine(lat1, lon1, lat2, lon2):
-      # Earth's radius in kilometers
+    # Earth's radius in kilometers
     EARTH_RADIUS = 6371.0  
     lat1, lon1, lat2, lon2 = map(radians, [lat1, lon1, lat2, lon2])
 
